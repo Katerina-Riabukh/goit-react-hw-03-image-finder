@@ -5,10 +5,4 @@ export const ServiseRequest = (query, page) => {
 
     const data = fetch(`${URL}?key=${API_KEY}&q=${query}&image_type=photo&page=${page}`)
     return data;
-
-
-
-
-
-
 }
